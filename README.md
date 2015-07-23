@@ -9,7 +9,7 @@ universal ajax as a component
 import {Ajax} from 'react-superagent';
 
 ...
-<Ajax>{
+<Ajax url='/my/api' method='post' send={{some: 'data'}}>{
   ({error, response, done}) => !done ?
     <div>loading...</div> :
     <div>loaded! {JSON.stringify(response)}</div>
