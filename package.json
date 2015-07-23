@@ -26,6 +26,8 @@
     "babel-core": "^5.8.3",
     "babel-loader": "^5.3.2",
     "react": "^0.13.3",
+    "react-debounce": "^1.0.2",
+    "react-hot-loader": "^1.2.8",
     "superagent": "^1.2.0",
     "webpack": "^1.10.3",
     "webpack-dev-server": "^1.10.1"

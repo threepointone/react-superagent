@@ -40,6 +40,9 @@ export class Ajax extends React.Component{
     this.request.abort();
     this.startRequest(nextProps);
   }
+  componentWillUnmount() {
+    this.request.abort();
+  }
   render(){
     return this.props.children(this.state);
   }
