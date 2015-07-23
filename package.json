@@ -1,0 +1,33 @@
+{
+  "name": "react-superagent",
+  "version": "1.0.0",
+  "description": "react+superagent = universal ajax as a component",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threepointone/react-superagent.git"
+  },
+  "keywords": [
+    "react",
+    "superagent",
+    "ajax"
+  ],
+  "author": "Sunil Pai <threepointone@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/threepointone/react-superagent/issues"
+  },
+  "homepage": "https://github.com/threepointone/react-superagent#readme",
+  "devDependencies": {
+    "babel": "^5.8.3",
+    "babel-core": "^5.8.3",
+    "babel-loader": "^5.3.2",
+    "react": "^0.13.3",
+    "superagent": "^1.2.0",
+    "webpack": "^1.10.3",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
