@@ -36,10 +36,11 @@ export class Ajax extends React.Component{
   componentWillMount(){
     this.startRequest(this.props);
   }
-  componentWillReceiveProps(nextProps) {
-    this.request.abort();
-    this.startRequest(nextProps);
-  }
+  // to trigger a new request, use <Ajax key={}/>
+  // componentWillReceiveProps(nextProps) {
+    // this.request.abort();
+    // this.startRequest(nextProps);
+  // }
   componentWillUnmount() {
     this.request.abort();
   }
