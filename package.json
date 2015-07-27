@@ -1,6 +1,6 @@
 {
   "name": "react-superagent",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "react+superagent = universal ajax as a component",
   "main": "index.js",
   "scripts": {
